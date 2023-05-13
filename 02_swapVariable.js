@@ -13,6 +13,7 @@ num2 = num3;
 num3 = temp2;
 console.log("After Swap:", "num1: ", num2, " num2: ", num3);
 
+console.log("-----------------------------------");
 
 var sweety = "Sweety";
 var cutie = "Cutie";
