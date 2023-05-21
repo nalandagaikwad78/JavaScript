@@ -91,11 +91,10 @@ var Wife = "Anushka";
 function swapValuesDude( Husband,Wife){
     console.log("Before Swap:", Husband,Wife);
    
-    var temp = Husband;
- Wife = Husband;
-   Husband = Wife;
-    console.log("After Swap:", Wife, Husband);
-
+    var temp = Wife;
+ temp = Husband;
+ Husband = Wife;
+    console.log("After Swap:", Husband, Wife);         
 }
 swapValuesDude(Husband,Wife);
 
