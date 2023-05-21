@@ -5,3 +5,4 @@ var multiplication = function (one, two, three) {
 }
 var result = multiplication(2, 2, 2 );
 console.log(result);
+
