@@ -1,0 +1,58 @@
+const arrayFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
+const zerothIndexFruit = arrayFruits[0];
+
+console.log(`First Fruit Name: ${zerothIndexFruit}`);
+let arrayLength = arrayFruits.length;
+console.log("---------------------------------------------------");
+const lastElement = arrayFruits[arrayLength-1];
+console.log(`Last Fruit Name: ${lastElement}`);
+console.log("---------------------------------------------------");
+arrayFruits.unshift("Papaya");
+console.log(arrayFruits);
+
+console.log("---------------------------------------------------");
+arrayFruits.push("Pineapple");
+console.log(arrayFruits);
+
+console.log("---------------------------------------------------");
+console.log(`Updating the array value`);
+arrayFruits[4] = "Dragon Fruit";
+console.log(arrayFruits);
+
+console.log("---------------------------------------------------");
+const arraysFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
+const index = arraysFruits.indexOf("Orange"); 
+if (index !== -1) {
+    arraysFruits[index] = "Kiwi";
+}
+console.log(arraysFruits); 
+console.log("---------------------------------------------------");
+
+function fruits() {
+    var arraysFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
+    for (var i = 0; i <arraysFruits.length; i++) {
+        if (arraysFruits[i] ==="Mango" ) {
+            var spliced = arraysFruits.splice(i, 1);
+            console.log(" elements: " + arraysFruits);
+        }
+    }
+}
+fruits();
+console.log("---------------------------------------------------");
+const sliceArr = arraysFruits.slice(1, 4);
+console.log(sliceArr);
+
+console.log("---------------------------------------------------");
+
+const array = ["Banana","Orange","Apple","Mango","Water Melon"];
+const n = 3;
+const result = array. slice(-n);
+console. log(result);
+
+
+
+
+
+
+
+
