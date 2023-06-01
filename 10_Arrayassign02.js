@@ -61,12 +61,36 @@ for (const index in arrsOddNumbers) {
   sum += array[i];
  }
  console.log("Sum of all elements:" + sum);
- console.log(`===============================================`);
- const multipleOfFive = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11]; 
- for(const index in  multipleOfFive)
- if (index%5==0){
-  console.log(`multiple of 5 is: ${multipleOfFive[index]}`);
- }
- 
 
+ console.log(`===============================================`);
+ var arrays = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11]; 
+ console.log(arrays);
+ arrays.splice(3, 0, 55, 66,);
+ console.log(arrays);
+
+//  console.log(`===============================================`);
+console.log(arrays);
+arrays.splice(4, 3)
+console.log(arrays);
+
+// console.log(`===============================================`);
+const arraysNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11]; 
+const isAvailable = arraysNumbers.includes(115);
+console.log(isAvailable);
+// console.log(`===============================================`);
+const arraNumbers = [20, 31, 40, 25, 23, 11, 29, 9, 60, 2, 11]; 
+const isAvailables = arraNumbers.includes(23);
+console.log(isAvailables);
+
+// console.log(`===============================================`);
+// function countByMultiples(length,multiple){
+// const arrRateValue =[];
+// for (let i = 0; i <= length; i++) {
+//   arrRateValue.push()
+  
+// }
+
+// }
+// const result = countByMultiples(11, 5);
+// console.log(result);
 
